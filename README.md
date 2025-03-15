@@ -3,6 +3,9 @@
 * frontend: https://github.com/Taloonys/crypto-view-front
 * backend: https://github.com/Taloonys/crypto-view-back
 
+# Tech
+* Vite + React + Docker + Python
+
 # Required
 * API Key from CoinMarketCap -> https://coinmarketcap.com/
 * Docker 3.8+ (I use docker-secret)
@@ -15,3 +18,6 @@
 frontend-1  |   ➜  Local:   http://localhost:8082/
 ```
 * OR open in browser: `http://localhost:8082/`
+
+# TODO 
+* nginx integration...
