@@ -11,7 +11,7 @@
 * Docker 3.8+ (I use docker-secret)
 
 # Use
-* run `echo <your api-key> > api_key.txt` -> `echo 52jais-124jklajs-asd > api_key.txt`
+* run `echo <your api-key> > api_key.txt` -> (example)`echo 52jais-124jklajs-asd > api_key.txt`
 * run `docker compose up --build`
 * find in logs + open link: 
 ```
