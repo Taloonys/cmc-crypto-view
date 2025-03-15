@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/Taloonys/crypto-view-back
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/Taloonys/crypto-view-front

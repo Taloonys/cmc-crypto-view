@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  backend:
+    image: cmc-crypto-back
+    build:
+      context: ./backend
+    environment:
+      - API_KEY_FILE=/run/secrets/api_key
+      - BACKEND_PORT=8081
+    secrets:
+      - api_key
+    expose:
+      - "8081"
+
+  frontend:
+    image: cmc-crypto-front
+    build:
+      context: ./frontend
+    ports:
+      - "8082:8082"
+    environment:
+      - BACKEND_HOST=backend
+      - BACKEND_PORT=8081
+    depends_on:
+      - backend
+
+secrets:
+  api_key:
+    file: ./api_key.txt
