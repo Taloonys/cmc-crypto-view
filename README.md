@@ -6,7 +6,7 @@
 * backend: https://github.com/Taloonys/crypto-view-back
 
 # Tech
-* Vite + React + Docker + Python + Nginx
+* Vite + React + Docker + Python (as RESTful server) + Nginx (as reversed proxy)
 
 # Required
 * API Key from CoinMarketCap -> https://coinmarketcap.com/
