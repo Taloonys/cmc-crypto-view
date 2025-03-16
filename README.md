@@ -1,23 +1,30 @@
 # General 
-* Project is just a fullstack app, that displays some cryptocurrencies info.
+* Project is just a fullstack (research) app, that displays some cryptocurrencies info.
 * frontend: https://github.com/Taloonys/crypto-view-front
 * backend: https://github.com/Taloonys/crypto-view-back
 
 # Tech
-* Vite + React + Docker + Python
+* Vite + React + Docker + Python + Nginx
 
 # Required
 * API Key from CoinMarketCap -> https://coinmarketcap.com/
-* Docker 3.8+ (I use docker-secret)
+* Internet access (reqiured for fetching data from CoinMarketCap)
+* Docker 3.8+ (I use docker-secret for API_KEY)
 
 # Use
-* run `echo <your api-key> > api_key.txt` -> (example)`echo 52jais-124jklajs-asd > api_key.txt`
-* run `docker compose up --build`
-* find in logs + open link: 
+* run 
 ```
-frontend-1  |   ➜  Local:   http://localhost:8082/
+echo <your api-key> > api_key.txt
+``` 
+(example) 
 ```
-* OR open in browser: `http://localhost:8082/`
-
-# TODO 
-* nginx integration...
+echo 52jais-124jklajs-asd > api_key.txt
+```
+* run 
+```
+docker compose up --build
+```
+* open in browser:
+```
+http://localhost:80/
+```
