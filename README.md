@@ -1,5 +1,6 @@
 # General 
-* Project is just a fullstack (research) app, that displays some cryptocurrencies info.
+* Project is just a fullstack app, that displays some cryptocurrencies info.
+* It's more like a reasearch project for myself, so there are somme redundant commentaries
 * frontend: https://github.com/Taloonys/crypto-view-front
 * backend: https://github.com/Taloonys/crypto-view-back
 
